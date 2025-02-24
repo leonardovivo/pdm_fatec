@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './styles.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,8 +12,21 @@ function App() {
       <div style={estiloAreaDocs()}>
       <h2>Profissionais de saúde</h2>
       <div style={{margin: 7, border: '1px solid #DDD', borderRadius: 8, padding: 60, display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
- </div>
-      </div>
+      
+      <div className="profissionais">
+
+   </div>
+
+      <div className="profissionais">
+
+   </div>
+
+      <div className="profissionais">
+
+   </div>
+
+  </div>
+</div>
       )
 }
 
