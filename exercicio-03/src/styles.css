@@ -1,0 +1,10 @@
+.profissionais{
+    border: 1px solid rgb(192, 153, 243);
+    background-color: rgb(228, 221, 238);
+    border-radius: 8px;
+    padding: 8px;
+   }
+   .profissionais img{
+    height: 150px;
+    border-radius: 8px;
+   }
