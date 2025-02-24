@@ -10,6 +10,8 @@ function App() {
       return (
       <div style={estiloAreaDocs()}>
       <h2>Profissionais de saúde</h2>
+      <div style={{margin: 7, border: '1px solid #DDD', borderRadius: 8, padding: 60, display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+ </div>
       </div>
       )
 }
