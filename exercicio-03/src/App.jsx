@@ -12,6 +12,8 @@ function App() {
 
       const NomesMedicos = {medico1: 'José da Silva', medico2: 'Maria da Silva', medico3: 'Jaqueline Mendes'};
 
+      const medico2 = import.meta.env.VITE_IMAGEM_MEDICO2;
+
       return (
       <div style={estiloAreaDocs()}>
       <h2>Profissionais de saúde</h2>
@@ -24,6 +26,7 @@ function App() {
    </div>
 
       <div className="profissionais">
+         <img src={medico2}/>
          <p>{NomesMedicos.medico2}</p>
 
    </div>
