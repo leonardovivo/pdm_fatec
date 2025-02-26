@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import medico1 from './images/medico1.jpg'
 import './styles.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <div style={{margin: 7, border: '1px solid #DDD', borderRadius: 8, padding: 60, display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
       
       <div className="profissionais">
+         <img src={medico1}/>
          <p>{NomesMedicos.medico1}</p>
 
    </div>
